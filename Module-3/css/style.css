@@ -1,0 +1,99 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-image: linear-gradient(to right, purple , pink);
+    font-family: 'Oxygen', sans-serif;
+}
+#header-nav {
+    background-image: linear-gradient(lightblue,rgb(223, 132, 132));
+    border-radius: 0;
+    border: 0;
+}
+.navbar-brand {
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+.navbar-brand h1 { 
+    font-family: 'consolas';
+    color: #705d58;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    position: relative;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    padding-bottom: 20px;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+#nav-list a {
+    color: #443f41;
+    text-align: center;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #796d71;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -33px;
+}
+
+
+#nav-list li p {
+    background: #49454b;
+}
+
+#home-tiles .item-text {
+    background: #ce9a9a;
+    padding: 10px;
+}
+
+#home-tiles .item-text p {
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+
+/** For Desktop users **/
+
+@media (min-width: 1200px) {
+}
+
+/** For Tablet-PC users **/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/** For smart-phone users with somewhat high-res **/
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/** For smart-phone users with low res **/
+@media (max-width: 767px) {
+    .navbar-brand {
+        padding-top: 10px;
+    }
+    .navbar-brand h1 { 
+        padding-top: 10px;
+        font-size: 6vw; 
+    }
+
+    #collapsable-nav a {
+        font-size: 1.2em;
+    }
+    #collapsable-nav a span { 
+        font-size: 1em;
+        margin-right: 5px;
+    }
+    .menu-item-description {
+        text-align: center;
+    }
+}
